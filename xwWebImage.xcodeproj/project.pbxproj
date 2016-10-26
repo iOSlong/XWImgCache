@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A84F356DEFE8C5B621E27C /* libPods-xwWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E0A2CCA932F914B4CBF024 /* libPods-xwWebImage.a */; };
+		323545EC5A93259DFDE874C3 /* libPods-xwWebImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FCDFA29107303B0C900C1E /* libPods-xwWebImageTests.a */; };
 		8EAECB861DC090BE005D6A1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECB851DC090BE005D6A1B /* main.m */; };
 		8EAECB891DC090BE005D6A1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECB881DC090BE005D6A1B /* AppDelegate.m */; };
 		8EAECB8C1DC090BE005D6A1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECB8B1DC090BE005D6A1B /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		8EAECB941DC090BE005D6A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAECB921DC090BE005D6A1B /* LaunchScreen.storyboard */; };
 		8EAECB9F1DC090BE005D6A1B /* xwWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECB9E1DC090BE005D6A1B /* xwWebImageTests.m */; };
 		8EAECBAA1DC090BE005D6A1B /* xwWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBA91DC090BE005D6A1B /* xwWebImageUITests.m */; };
+		8EAECBBA1DC09273005D6A1B /* XWImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBB91DC09273005D6A1B /* XWImgCache.m */; };
+		8EAECBBD1DC09F92005D6A1B /* XWImgDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */; };
+		E7F05DDA3EB9F734F001FBC9 /* libPods-xwWebImageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377F391F306C7F45E1A4CE /* libPods-xwWebImageUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27880B84BBCF77756B5B4A73 /* Pods-xwWebImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImageUITests/Pods-xwWebImageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F377F391F306C7F45E1A4CE /* libPods-xwWebImageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xwWebImageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FCDFA29107303B0C900C1E /* libPods-xwWebImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xwWebImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B326B440ADB3873AC05CC67 /* Pods-xwWebImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImageTests/Pods-xwWebImageTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EAECB811DC090BE005D6A1B /* xwWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xwWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAECB851DC090BE005D6A1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EAECB871DC090BE005D6A1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		8EAECBA51DC090BE005D6A1B /* xwWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xwWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAECBA91DC090BE005D6A1B /* xwWebImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xwWebImageUITests.m; sourceTree = "<group>"; };
 		8EAECBAB1DC090BE005D6A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAECBB81DC09273005D6A1B /* XWImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgCache.h; sourceTree = "<group>"; };
+		8EAECBB91DC09273005D6A1B /* XWImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWImgCache.m; sourceTree = "<group>"; };
+		8EAECBBB1DC09F92005D6A1B /* XWImgDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgDownloader.h; sourceTree = "<group>"; };
+		8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWImgDownloader.m; sourceTree = "<group>"; };
+		8EAECBBE1DC0A0D5005D6A1B /* XWImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgOperation.h; sourceTree = "<group>"; };
+		B8E5827A0402F217627AD708 /* Pods-xwWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		CA10F84AD6E13394A45082DB /* Pods-xwWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		D3E0A2CCA932F914B4CBF024 /* libPods-xwWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xwWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DD166DEED0E13F304F399A /* Pods-xwWebImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImageTests/Pods-xwWebImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		E67D0C92090545DC6F36614D /* Pods-xwWebImageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImageUITests/Pods-xwWebImageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A84F356DEFE8C5B621E27C /* libPods-xwWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323545EC5A93259DFDE874C3 /* libPods-xwWebImageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F05DDA3EB9F734F001FBC9 /* libPods-xwWebImageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AC7EE7DBB1CE5D4494C5F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E0A2CCA932F914B4CBF024 /* libPods-xwWebImage.a */,
+				73FCDFA29107303B0C900C1E /* libPods-xwWebImageTests.a */,
+				2F377F391F306C7F45E1A4CE /* libPods-xwWebImageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BBA86D59A9D9E81E135AF4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E5827A0402F217627AD708 /* Pods-xwWebImage.debug.xcconfig */,
+				CA10F84AD6E13394A45082DB /* Pods-xwWebImage.release.xcconfig */,
+				7B326B440ADB3873AC05CC67 /* Pods-xwWebImageTests.debug.xcconfig */,
+				E2DD166DEED0E13F304F399A /* Pods-xwWebImageTests.release.xcconfig */,
+				E67D0C92090545DC6F36614D /* Pods-xwWebImageUITests.debug.xcconfig */,
+				27880B84BBCF77756B5B4A73 /* Pods-xwWebImageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8EAECB781DC090BE005D6A1B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				8EAECB9D1DC090BE005D6A1B /* xwWebImageTests */,
 				8EAECBA81DC090BE005D6A1B /* xwWebImageUITests */,
 				8EAECB821DC090BE005D6A1B /* Products */,
+				4BBA86D59A9D9E81E135AF4A /* Pods */,
+				1AC7EE7DBB1CE5D4494C5F97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +148,7 @@
 		8EAECB831DC090BE005D6A1B /* xwWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				8EAECBB71DC0922C005D6A1B /* xwimage */,
 				8EAECB871DC090BE005D6A1B /* AppDelegate.h */,
 				8EAECB881DC090BE005D6A1B /* AppDelegate.m */,
 				8EAECB8A1DC090BE005D6A1B /* ViewController.h */,
@@ -140,6 +188,18 @@
 			path = xwWebImageUITests;
 			sourceTree = "<group>";
 		};
+		8EAECBB71DC0922C005D6A1B /* xwimage */ = {
+			isa = PBXGroup;
+			children = (
+				8EAECBB81DC09273005D6A1B /* XWImgCache.h */,
+				8EAECBB91DC09273005D6A1B /* XWImgCache.m */,
+				8EAECBBE1DC0A0D5005D6A1B /* XWImgOperation.h */,
+				8EAECBBB1DC09F92005D6A1B /* XWImgDownloader.h */,
+				8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */,
+			);
+			path = xwimage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EAECBAE1DC090BE005D6A1B /* Build configuration list for PBXNativeTarget "xwWebImage" */;
 			buildPhases = (
+				9D0C1791524618F471A0A157 /* [CP] Check Pods Manifest.lock */,
 				8EAECB7D1DC090BE005D6A1B /* Sources */,
 				8EAECB7E1DC090BE005D6A1B /* Frameworks */,
 				8EAECB7F1DC090BE005D6A1B /* Resources */,
+				CBAFD5F0BFC451AD8B777CBB /* [CP] Embed Pods Frameworks */,
+				5A08B2AA1F9A3CC58B9FE2C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EAECBB11DC090BE005D6A1B /* Build configuration list for PBXNativeTarget "xwWebImageTests" */;
 			buildPhases = (
+				9E39D83714A1832CF77F0FE2 /* [CP] Check Pods Manifest.lock */,
 				8EAECB961DC090BE005D6A1B /* Sources */,
 				8EAECB971DC090BE005D6A1B /* Frameworks */,
 				8EAECB981DC090BE005D6A1B /* Resources */,
+				B92DD90877093DDD9FD6980F /* [CP] Embed Pods Frameworks */,
+				B39E57327C43FCD751D94130 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EAECBB41DC090BE005D6A1B /* Build configuration list for PBXNativeTarget "xwWebImageUITests" */;
 			buildPhases = (
+				61FA2E0ADF276F62F2EE9664 /* [CP] Check Pods Manifest.lock */,
 				8EAECBA11DC090BE005D6A1B /* Sources */,
 				8EAECBA21DC090BE005D6A1B /* Frameworks */,
 				8EAECBA31DC090BE005D6A1B /* Resources */,
+				B3ECB99126D082BB1D73073A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +270,9 @@
 		8EAECB791DC090BE005D6A1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XW;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = xw;
+				ORGANIZATIONNAME = fmy;
 				TargetAttributes = {
 					8EAECB801DC090BE005D6A1B = {
 						CreatedOnToolsVersion = 8.0;
@@ -268,14 +337,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A08B2AA1F9A3CC58B9FE2C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FA2E0ADF276F62F2EE9664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0C1791524618F471A0A157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E39D83714A1832CF77F0FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B39E57327C43FCD751D94130 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xwWebImageTests/Pods-xwWebImageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ECB99126D082BB1D73073A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xwWebImageUITests/Pods-xwWebImageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92DD90877093DDD9FD6980F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xwWebImageTests/Pods-xwWebImageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAFD5F0BFC451AD8B777CBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EAECB7D1DC090BE005D6A1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAECBBD1DC09F92005D6A1B /* XWImgDownloader.m in Sources */,
 				8EAECB8C1DC090BE005D6A1B /* ViewController.m in Sources */,
 				8EAECB891DC090BE005D6A1B /* AppDelegate.m in Sources */,
 				8EAECB861DC090BE005D6A1B /* main.m in Sources */,
+				8EAECBBA1DC09273005D6A1B /* XWImgCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +616,7 @@
 		};
 		8EAECBAF1DC090BE005D6A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E5827A0402F217627AD708 /* Pods-xwWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xwWebImage/Info.plist;
@@ -433,6 +628,7 @@
 		};
 		8EAECBB01DC090BE005D6A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA10F84AD6E13394A45082DB /* Pods-xwWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xwWebImage/Info.plist;
@@ -444,6 +640,7 @@
 		};
 		8EAECBB21DC090BE005D6A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B326B440ADB3873AC05CC67 /* Pods-xwWebImageTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xwWebImageTests/Info.plist;
@@ -456,6 +653,7 @@
 		};
 		8EAECBB31DC090BE005D6A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DD166DEED0E13F304F399A /* Pods-xwWebImageTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xwWebImageTests/Info.plist;
@@ -468,6 +666,7 @@
 		};
 		8EAECBB51DC090BE005D6A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67D0C92090545DC6F36614D /* Pods-xwWebImageUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = xwWebImageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +678,7 @@
 		};
 		8EAECBB61DC090BE005D6A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27880B84BBCF77756B5B4A73 /* Pods-xwWebImageUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = xwWebImageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +707,7 @@
 				8EAECBB01DC090BE005D6A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EAECBB11DC090BE005D6A1B /* Build configuration list for PBXNativeTarget "xwWebImageTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +716,7 @@
 				8EAECBB31DC090BE005D6A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EAECBB41DC090BE005D6A1B /* Build configuration list for PBXNativeTarget "xwWebImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +725,7 @@
 				8EAECBB61DC090BE005D6A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
