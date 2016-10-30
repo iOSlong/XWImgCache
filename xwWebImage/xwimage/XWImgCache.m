@@ -34,6 +34,13 @@
     return nil;
 }
 
+- (NSString *)cacheKeyForURL:(NSURL *)url {
+    if (!url) {
+        return @"";
+    }
+    return [url absoluteString];
+}
+
 
 #pragma mark - XWImgCace(Private)
 // Init the disk cache

@@ -17,6 +17,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    
+//    NSOperation *operation = [[NSOperation alloc] init];
+//    
+//    NSURLRequest *urlRequest;// = [[NSURLRequest alloc] initWithURL:nil cachePolicy:0 timeoutInterval:nil];
+//    
+//    
+//    NSURLSessionDataTask *dataTask;// = [NSURLSessionTask]
+//    
+//    NSURLSession *session ;
+//    NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
+//    sessionConfig.timeoutIntervalForRequest = 15;
+//    
+//    session = [NSURLSession sessionWithConfiguration:sessionConfig delegate:self delegateQueue:nil];
+//    
+//    dataTask =  [session dataTaskWithRequest:urlRequest];
+//    
+//    [dataTask resume];
+    
+    
+    
+    
+    
     return YES;
 }
 

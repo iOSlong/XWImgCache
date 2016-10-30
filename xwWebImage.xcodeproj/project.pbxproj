@@ -18,7 +18,10 @@
 		8EAECB9F1DC090BE005D6A1B /* xwWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECB9E1DC090BE005D6A1B /* xwWebImageTests.m */; };
 		8EAECBAA1DC090BE005D6A1B /* xwWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBA91DC090BE005D6A1B /* xwWebImageUITests.m */; };
 		8EAECBBA1DC09273005D6A1B /* XWImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBB91DC09273005D6A1B /* XWImgCache.m */; };
-		8EAECBBD1DC09F92005D6A1B /* XWImgDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */; };
+		8ED5B8211DC4D4BD0066F12C /* FMYImgDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5B8201DC4D4BD0066F12C /* FMYImgDownloaderOperation.m */; };
+		8ED5B8241DC4D5E50066F12C /* FMYImgDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5B8231DC4D5E50066F12C /* FMYImgDownloader.m */; };
+		8ED5B82B1DC5CB670066F12C /* FMYImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5B82A1DC5CB670066F12C /* FMYImgCache.m */; };
+		8ED5B82E1DC5D9FB0066F12C /* FMYImgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5B82D1DC5D9FB0066F12C /* FMYImgManager.m */; };
 		E7F05DDA3EB9F734F001FBC9 /* libPods-xwWebImageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377F391F306C7F45E1A4CE /* libPods-xwWebImageUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,9 +65,15 @@
 		8EAECBAB1DC090BE005D6A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EAECBB81DC09273005D6A1B /* XWImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgCache.h; sourceTree = "<group>"; };
 		8EAECBB91DC09273005D6A1B /* XWImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWImgCache.m; sourceTree = "<group>"; };
-		8EAECBBB1DC09F92005D6A1B /* XWImgDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgDownloader.h; sourceTree = "<group>"; };
-		8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWImgDownloader.m; sourceTree = "<group>"; };
 		8EAECBBE1DC0A0D5005D6A1B /* XWImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWImgOperation.h; sourceTree = "<group>"; };
+		8ED5B81F1DC4D4BD0066F12C /* FMYImgDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYImgDownloaderOperation.h; sourceTree = "<group>"; };
+		8ED5B8201DC4D4BD0066F12C /* FMYImgDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYImgDownloaderOperation.m; sourceTree = "<group>"; };
+		8ED5B8221DC4D5E50066F12C /* FMYImgDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYImgDownloader.h; sourceTree = "<group>"; };
+		8ED5B8231DC4D5E50066F12C /* FMYImgDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYImgDownloader.m; sourceTree = "<group>"; };
+		8ED5B8291DC5CB670066F12C /* FMYImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYImgCache.h; sourceTree = "<group>"; };
+		8ED5B82A1DC5CB670066F12C /* FMYImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYImgCache.m; sourceTree = "<group>"; };
+		8ED5B82C1DC5D9FB0066F12C /* FMYImgManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYImgManager.h; sourceTree = "<group>"; };
+		8ED5B82D1DC5D9FB0066F12C /* FMYImgManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYImgManager.m; sourceTree = "<group>"; };
 		B8E5827A0402F217627AD708 /* Pods-xwWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage.debug.xcconfig"; sourceTree = "<group>"; };
 		CA10F84AD6E13394A45082DB /* Pods-xwWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xwWebImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-xwWebImage/Pods-xwWebImage.release.xcconfig"; sourceTree = "<group>"; };
 		D3E0A2CCA932F914B4CBF024 /* libPods-xwWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xwWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,8 +203,14 @@
 				8EAECBB81DC09273005D6A1B /* XWImgCache.h */,
 				8EAECBB91DC09273005D6A1B /* XWImgCache.m */,
 				8EAECBBE1DC0A0D5005D6A1B /* XWImgOperation.h */,
-				8EAECBBB1DC09F92005D6A1B /* XWImgDownloader.h */,
-				8EAECBBC1DC09F92005D6A1B /* XWImgDownloader.m */,
+				8ED5B8291DC5CB670066F12C /* FMYImgCache.h */,
+				8ED5B82A1DC5CB670066F12C /* FMYImgCache.m */,
+				8ED5B81F1DC4D4BD0066F12C /* FMYImgDownloaderOperation.h */,
+				8ED5B8201DC4D4BD0066F12C /* FMYImgDownloaderOperation.m */,
+				8ED5B82C1DC5D9FB0066F12C /* FMYImgManager.h */,
+				8ED5B82D1DC5D9FB0066F12C /* FMYImgManager.m */,
+				8ED5B8221DC4D5E50066F12C /* FMYImgDownloader.h */,
+				8ED5B8231DC4D5E50066F12C /* FMYImgDownloader.m */,
 			);
 			path = xwimage;
 			sourceTree = "<group>";
@@ -270,7 +285,7 @@
 		8EAECB791DC090BE005D6A1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = XW;
+				CLASSPREFIX = FMY;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = fmy;
 				TargetAttributes = {
@@ -465,11 +480,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAECBBD1DC09F92005D6A1B /* XWImgDownloader.m in Sources */,
 				8EAECB8C1DC090BE005D6A1B /* ViewController.m in Sources */,
 				8EAECB891DC090BE005D6A1B /* AppDelegate.m in Sources */,
+				8ED5B8211DC4D4BD0066F12C /* FMYImgDownloaderOperation.m in Sources */,
 				8EAECB861DC090BE005D6A1B /* main.m in Sources */,
+				8ED5B82B1DC5CB670066F12C /* FMYImgCache.m in Sources */,
+				8ED5B82E1DC5D9FB0066F12C /* FMYImgManager.m in Sources */,
 				8EAECBBA1DC09273005D6A1B /* XWImgCache.m in Sources */,
+				8ED5B8241DC4D5E50066F12C /* FMYImgDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

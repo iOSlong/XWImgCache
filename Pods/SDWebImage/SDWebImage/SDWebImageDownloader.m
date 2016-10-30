@@ -205,6 +205,8 @@ static NSString *const kCompletedCallbackKey = @"completed";
         }
 
         [wself.downloadQueue addOperation:operation];
+        NSLog(@"%ld",self.downloadQueue.operationCount);
+        
         if (wself.executionOrder == SDWebImageDownloaderLIFOExecutionOrder) {
             // Emulate LIFO execution order by systematically adding new operations as last operation's dependency
             [wself.lastAddedOperation addDependency:operation];
